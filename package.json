@@ -94,6 +94,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.2.2",
     "basic-auth": "^2.0.1",
     "cookies": "^0.8.0",
     "debug": "^4.3.4",
@@ -101,8 +102,9 @@
     "path-to-regexp": "^6.2.1",
     "qs": "^6.11.0",
     "send": "^0.18.0",
-    "uuid": "^9.0.0",
-    "axios": "^1.2.2"
+    "url": "^0.11.0",
+    "url-value-parser": "^2.2.0",
+    "uuid": "^9.0.0"
   },
   "peerDependencies": {
     "prom-client": ">= 10 <= 14"
@@ -126,13 +128,13 @@
     "nyc": "^15.1.0",
     "prom-client": "^14.1.0",
     "q": "^1.5.1",
+    "request": "^2.88.2",
     "restify": "^10.0.0",
     "serve-favicon": "^2.5.0",
     "serve-static": "^1.15.0",
     "should": "^13.2.3",
     "supertest": "^6.3.2",
     "swagger-parser": "^10.0.3",
-    "swagger-stats-ux": "^0.95.29",
-    "request": "^2.88.2"
+    "swagger-stats-ux": "^0.95.29"
   }
 }
